@@ -11,4 +11,5 @@ module nl.pancompany.unicorn.adapter {
     requires spring.core;
     requires spring.beans;
     requires spring.data.jpa;
+    requires spring.boot.autoconfigure;
 }

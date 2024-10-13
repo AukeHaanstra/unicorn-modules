@@ -27,6 +27,4 @@ public class UnicornPersistenceAdapter implements FindUnicornPort, SaveUnicornPo
         unicornRepo.save(mapper.map(unicorn));
     }
 
-    public static interface UnicornRepo extends JpaRepository<UnicornJpaEntity, Long> {
-    }
 }

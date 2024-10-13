@@ -1,4 +1,4 @@
-insert into unicorn (id) values (1);
+insert into unicorn values (1);
 
 insert into unicorn_part (id, unicorn_id, color) values (1, 1, 'BLACK');
 insert into unicorn_part (id, unicorn_id, color) values (2, 1, 'PEACH');
