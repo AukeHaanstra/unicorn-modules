@@ -1,4 +1,4 @@
-package nl.pancompany.unicorn.adapter.unicorn.out.financialhealthadapter;
+package nl.pancompany.unicorn.adapter.unicorn.out.financialhealth;
 
 
 import nl.pancompany.unicorn.application.port.CalculateSalesPort;
@@ -13,7 +13,7 @@ import static org.mapstruct.ReportingPolicy.ERROR;
 import static org.mapstruct.factory.Mappers.getMapper;
 
 @Mapper(unmappedTargetPolicy = ERROR)
-public interface FinancialHealthMapper {
+interface FinancialHealthMapper {
 
     FinancialHealthMapper INSTANCE = getMapper(FinancialHealthMapper.class);
 

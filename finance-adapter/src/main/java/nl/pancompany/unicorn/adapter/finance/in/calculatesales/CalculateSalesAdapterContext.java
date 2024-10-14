@@ -1,4 +1,4 @@
-package nl.pancompany.unicorn.adapter.finance.in;
+package nl.pancompany.unicorn.adapter.finance.in.calculatesales;
 
 import lombok.Getter;
 import nl.pancompany.unicorn.application.finance.port.in.CalculateTotalSalesUsecase;

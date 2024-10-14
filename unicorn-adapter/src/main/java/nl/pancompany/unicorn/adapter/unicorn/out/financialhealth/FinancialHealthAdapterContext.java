@@ -1,4 +1,4 @@
-package nl.pancompany.unicorn.adapter.unicorn.out.financialhealthadapter;
+package nl.pancompany.unicorn.adapter.unicorn.out.financialhealth;
 
 import lombok.Getter;
 import nl.pancompany.unicorn.application.port.CalculateSalesPort;

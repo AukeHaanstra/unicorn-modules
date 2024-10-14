@@ -22,10 +22,4 @@ public class UnicornEnrichmentService {
         return unicornDto;
     }
 
-    @Data
-    public static class HealthDto {
-
-        private PhysicalHealth physicalHealth;
-        private FinancialHealth financialHealth;
-    }
 }

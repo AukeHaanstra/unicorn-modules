@@ -4,7 +4,7 @@ import lombok.*;
 import nl.pancompany.unicorn.application.domain.model.UnicornId;
 import nl.pancompany.unicorn.application.unicorn.domain.model.Leg.LegPosition;
 import nl.pancompany.unicorn.application.unicorn.domain.model.Leg.LegSize;
-import nl.pancompany.unicorn.application.unicorn.domain.service.UnicornEnrichmentService;
+import nl.pancompany.unicorn.application.unicorn.domain.service.dto.HealthDto;
 import nl.pancompany.unicorn.application.unicorn.usecase.util.ListUtils;
 
 import java.util.List;
@@ -71,6 +71,6 @@ public class Unicorn {
     }
 
     public record UnicornDto(UnicornId unicornId, String name, Set<Leg.LegDto> legs,
-                                    UnicornEnrichmentService.HealthDto health) {
+                                    HealthDto health) {
     }
 }

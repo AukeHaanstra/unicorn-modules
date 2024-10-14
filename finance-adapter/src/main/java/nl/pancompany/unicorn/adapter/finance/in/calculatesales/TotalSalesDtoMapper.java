@@ -1,4 +1,4 @@
-package nl.pancompany.unicorn.adapter.finance.in;
+package nl.pancompany.unicorn.adapter.finance.in.calculatesales;
 
 import nl.pancompany.unicorn.application.finance.port.in.CalculateTotalSalesUsecase;
 import nl.pancompany.unicorn.application.port.CalculateSalesPort;
@@ -10,7 +10,7 @@ import static org.mapstruct.factory.Mappers.getMapper;
 
 @Mapper(unmappedTargetPolicy = ReportingPolicy.ERROR,
         collectionMappingStrategy = CollectionMappingStrategy.ADDER_PREFERRED)
-public interface TotalSalesDtoMapper {
+interface TotalSalesDtoMapper {
 
     TotalSalesDtoMapper INSTANCE = getMapper(TotalSalesDtoMapper.class);
 

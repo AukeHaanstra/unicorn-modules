@@ -1,4 +1,4 @@
-package nl.pancompany.unicorn.adapter.finance.in;
+package nl.pancompany.unicorn.adapter.finance.in.calculatesales;
 
 import lombok.RequiredArgsConstructor;
 import nl.pancompany.unicorn.application.domain.model.UnicornId;
@@ -6,7 +6,7 @@ import nl.pancompany.unicorn.application.finance.port.in.CalculateTotalSalesUsec
 import nl.pancompany.unicorn.application.port.CalculateSalesPort;
 
 @RequiredArgsConstructor
-public class CalculateSalesAdapter implements CalculateSalesPort {
+class CalculateSalesAdapter implements CalculateSalesPort {
 
     private final CalculateTotalSalesUsecase calculateTotalSalesUsecase;
     private final TotalSalesDtoMapper totalSalesDtoMapper;

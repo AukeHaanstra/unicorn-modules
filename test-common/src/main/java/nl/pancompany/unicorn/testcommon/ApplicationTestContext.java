@@ -1,8 +1,8 @@
 package nl.pancompany.unicorn.testcommon;
 
 import lombok.Getter;
-import nl.pancompany.unicorn.adapter.finance.in.CalculateSalesAdapterContext;
-import nl.pancompany.unicorn.adapter.unicorn.out.financialhealthadapter.FinancialHealthAdapterContext;
+import nl.pancompany.unicorn.adapter.finance.in.calculatesales.CalculateSalesAdapterContext;
+import nl.pancompany.unicorn.adapter.unicorn.out.financialhealth.FinancialHealthAdapterContext;
 import nl.pancompany.unicorn.application.finance.FinanceContext;
 import nl.pancompany.unicorn.application.finance.port.in.CalculateTotalSalesUsecase;
 import nl.pancompany.unicorn.application.unicorn.UnicornContext;
