@@ -24,7 +24,9 @@
 
     <modules>
         <module>unicorn-application</module>
+        <module>finance-application</module>
         <module>unicorn-adapter</module>
+        <module>finance-adapter</module>
         <module>main</module>
     </modules>
 
