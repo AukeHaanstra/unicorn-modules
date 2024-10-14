@@ -25,6 +25,11 @@
             <version>3.0.0</version>
             <scope>compile</scope>
         </dependency>
+        <dependency>
+            <groupId>nl.pancompany.unicorn</groupId>
+            <artifactId>application</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
 </project>
