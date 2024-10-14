@@ -4,7 +4,6 @@ import nl.pancompany.unicorn.application.finance.port.in.CalculateTotalSalesUsec
 import nl.pancompany.unicorn.application.port.CalculateSalesPort;
 import org.mapstruct.CollectionMappingStrategy;
 import org.mapstruct.Mapper;
-import org.mapstruct.Mapping;
 import org.mapstruct.ReportingPolicy;
 
 import static org.mapstruct.factory.Mappers.getMapper;
@@ -15,7 +14,6 @@ public interface TotalSalesDtoMapper {
 
     TotalSalesDtoMapper INSTANCE = getMapper(TotalSalesDtoMapper.class);
 
-    @Mapping(target = "unicornId", source = "unicornId", qualifiedByName = "mapUnicornId")
     CalculateSalesPort.SalesDto map(CalculateTotalSalesUsecase.TotalSalesDto unicornJpaEntity);
 
 }

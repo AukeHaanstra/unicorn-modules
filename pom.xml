@@ -24,10 +24,10 @@
 
     <modules>
         <module>common</module>
-        <module>test-common</module>
         <module>application</module>
         <module>unicorn-application</module>
         <module>finance-application</module>
+        <module>test-common</module>
         <module>test</module>
         <module>unicorn-adapter</module>
         <module>finance-adapter</module>

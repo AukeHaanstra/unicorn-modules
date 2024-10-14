@@ -1,4 +1,5 @@
 module nl.pancompany.unicorn.adapter.unicorn {
+    exports nl.pancompany.unicorn.adapter.unicorn.out.financialhealthadapter;
     requires transitive nl.pancompany.unicorn.application.unicorn;
     requires spring.web;
     requires lombok;
@@ -14,4 +15,5 @@ module nl.pancompany.unicorn.adapter.unicorn {
     requires spring.boot.autoconfigure;
     requires spring.webmvc;
     requires jakarta.validation;
+    requires jakarta.transaction;
 }

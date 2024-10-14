@@ -20,7 +20,22 @@
     <dependencies>
         <dependency>
             <groupId>nl.pancompany.unicorn</groupId>
-            <artifactId>common</artifactId>
+            <artifactId>unicorn-application</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>nl.pancompany.unicorn</groupId>
+            <artifactId>unicorn-adapter</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>nl.pancompany.unicorn</groupId>
+            <artifactId>finance-application</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>nl.pancompany.unicorn</groupId>
+            <artifactId>finance-adapter</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>

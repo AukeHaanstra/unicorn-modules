@@ -1,4 +1,5 @@
 module nl.pancompany.unicorn.adapter.finance {
+    exports nl.pancompany.unicorn.adapter.finance.in;
     requires transitive nl.pancompany.unicorn.application.finance;
     requires spring.web;
     requires lombok;

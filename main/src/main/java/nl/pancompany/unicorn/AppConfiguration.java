@@ -1,12 +1,11 @@
 package nl.pancompany.unicorn;
 
-import nl.pancompany.unicorn.application.unicorn.domain.model.UnicornId;
+import nl.pancompany.unicorn.application.domain.model.UnicornId;
 import nl.pancompany.unicorn.application.unicorn.port.in.GetLegUsecase;
 import nl.pancompany.unicorn.application.unicorn.port.in.GetUnicornUsecase;
 import nl.pancompany.unicorn.application.unicorn.port.in.UpdateLegUsecase;
-import nl.pancompany.unicorn.common.Dao;
+import nl.pancompany.unicorn.common.Repository;
 import nl.pancompany.unicorn.application.unicorn.domain.model.Unicorn;
-import nl.pancompany.unicorn.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -14,8 +13,8 @@ import org.springframework.context.annotation.Configuration;
 public class AppConfiguration {
 
     @Bean
-    public ApplicationContext applicationContext(Dao<Unicorn, UnicornId> unicornDao) {
-        return new ApplicationContext(unicornDao);
+    public ApplicationContext applicationContext(Repository<Unicorn, UnicornId> unicornRepository) {
+        return new ApplicationContext(unicornRepository);
     }
 
     @Bean

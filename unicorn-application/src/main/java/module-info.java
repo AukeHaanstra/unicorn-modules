@@ -10,4 +10,6 @@ module nl.pancompany.unicorn.application.unicorn {
     exports nl.pancompany.unicorn.application.unicorn.domain.model;
     exports nl.pancompany.unicorn.application.unicorn.port.out;
     exports nl.pancompany.unicorn.application.unicorn.usecase.exception;
+    exports nl.pancompany.unicorn.application.unicorn.domain.service;
+    exports nl.pancompany.unicorn.application.unicorn;
 }
