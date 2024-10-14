@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class UnicornApp {
+public class UnicornApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(UnicornApp.class, args);
+		SpringApplication.run(UnicornApplication.class, args);
 	}
 
 }

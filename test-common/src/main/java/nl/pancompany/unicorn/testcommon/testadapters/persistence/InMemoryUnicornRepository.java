@@ -17,7 +17,7 @@ import java.util.Map;
 @RequiredArgsConstructor
 public class InMemoryUnicornRepository implements UnicornRepository {
 
-    private final UnicornDtoMapper unicornDtoMapper;
+    private final UnicornCloneMapper unicornCloneMapper;
 
     private final Map<String, Unicorn> inMemoryStore = new HashMap<>();
 
@@ -66,7 +66,7 @@ public class InMemoryUnicornRepository implements UnicornRepository {
     }
 
     private Unicorn safeCopy(Unicorn source) {
-        return unicornDtoMapper.map(unicornDtoMapper.map(source));
+        return unicornCloneMapper.map(source);
     }
 
     private static void requireNonNull(Object object) {

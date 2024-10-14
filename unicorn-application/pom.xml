@@ -26,6 +26,11 @@
             <scope>compile</scope>
         </dependency>
         <dependency>
+            <groupId>jakarta.interceptor</groupId>
+            <artifactId>jakarta.interceptor-api</artifactId>
+            <version>2.2.0</version>
+        </dependency>
+        <dependency>
             <groupId>nl.pancompany.unicorn</groupId>
             <artifactId>application</artifactId>
             <version>0.0.1-SNAPSHOT</version>

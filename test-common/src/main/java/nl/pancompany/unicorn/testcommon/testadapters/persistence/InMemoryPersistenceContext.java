@@ -9,6 +9,6 @@ public class InMemoryPersistenceContext {
     private final UnicornRepository unicornRepository;
 
     public InMemoryPersistenceContext() {
-        this.unicornRepository = new InMemoryUnicornRepository(UnicornDtoMapper.INSTANCE);
+        this.unicornRepository = new InMemoryUnicornRepository(UnicornCloneMapper.INSTANCE);
     }
 }

@@ -1,4 +1,4 @@
-package nl.pancompany.unicorn.testcommon.application;
+package nl.pancompany.unicorn.testcommon;
 
 import lombok.Getter;
 import nl.pancompany.unicorn.adapter.finance.in.CalculateSalesAdapterContext;
