@@ -1,4 +1,4 @@
-module nl.pancompany.unicorn.application {
+module nl.pancompany.unicorn.application.unicorn {
     requires jakarta.transaction;
     requires jakarta.validation;
     requires spring.context;

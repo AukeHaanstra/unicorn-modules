@@ -1,8 +1,8 @@
-module nl.pancompany.unicorn.adapter {
+module nl.pancompany.unicorn.adapter.unicorn {
     requires spring.web;
     requires lombok;
     requires com.fasterxml.jackson.databind;
-    requires nl.pancompany.unicorn.application;
+    requires nl.pancompany.unicorn.application.unicorn;
     requires json.patch;
     requires org.slf4j;
     requires jakarta.persistence;

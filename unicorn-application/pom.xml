@@ -9,7 +9,8 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>adapter</artifactId>
+    <groupId>nl.pancompany.unicorn</groupId>
+    <artifactId>unicorn-application</artifactId>
 
     <properties>
         <maven.compiler.source>23</maven.compiler.source>
@@ -19,9 +20,11 @@
 
     <dependencies>
         <dependency>
-            <groupId>nl.pancompany.unicorn</groupId>
-            <artifactId>application</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <groupId>jakarta.enterprise</groupId>
+            <artifactId>jakarta.enterprise.cdi-api</artifactId>
+            <version>3.0.0</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
+
 </project>

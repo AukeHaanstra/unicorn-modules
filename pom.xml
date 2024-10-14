@@ -23,8 +23,8 @@
     </properties>
 
     <modules>
-        <module>application</module>
-        <module>adapter</module>
+        <module>unicorn-application</module>
+        <module>unicorn-adapter</module>
         <module>main</module>
     </modules>
 
