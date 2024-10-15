@@ -6,14 +6,10 @@ import nl.pancompany.unicorn.application.unicorn.domain.model.Unicorn;
 import nl.pancompany.unicorn.application.unicorn.port.out.UnicornRepository;
 import nl.pancompany.unicorn.application.unicorn.usecase.exception.UnicornAlreadyExistsException;
 import nl.pancompany.unicorn.application.unicorn.usecase.exception.UnicornNotFoundException;
-import org.springframework.context.annotation.Profile;
-import org.springframework.stereotype.Component;
 
 import java.util.HashMap;
 import java.util.Map;
 
-@Component
-@Profile("test")
 @RequiredArgsConstructor
 public class InMemoryUnicornRepository implements UnicornRepository {
 
